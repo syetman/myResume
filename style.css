@@ -12,6 +12,9 @@
 * {
     box-sizing: border-box;
   }
+* {
+  font-family: 'Barlow', Georgia, serif;
+}
   
   html {
     margin: 0 auto;
@@ -28,15 +31,7 @@
     -webkit-font-smoothing: antialiased;
     color: #333333;
   }
-  .clearfix::after {
-    content: " ";
-    clear: both;
-    display: table;
-  }
-  .float-right {
-    float: right;
-  }
-  
+
   /* 2. Typography Styles
   ======================================== */
   h1,
@@ -45,7 +40,6 @@
   h4,
   h5,
   h6 {
-    font-family: 'Barlow Condensed', Helvetica, sans-serif;
     font-weight: 700;
     line-height: 1.25;
     margin-bottom: 15px;
@@ -70,13 +64,11 @@
     }
   }
   p {
-    font-family: 'Barlow', Georgia, serif;
     font-size: 16px;
     line-height: 23px;
     margin: 0 0 15px;
   }
   a {
-    font-family: 'Barlow', Helvetica, sans-serif;
     font-size: 16px;
     color: #0D1C32;
   }
@@ -85,7 +77,6 @@
     margin: 0;
   }
   li {
-    font-family: 'Barlow', Helvetica, sans-serif;
     font-size: 16px;
     line-height: 23px;
     list-style: none;
@@ -184,44 +175,7 @@
   
   /* 5. Component Styles
   ======================================== */
-  button {
-    border: none;
-  }
-  button:hover {
-    cursor: pointer;
-  }
-  .button {
-    border-radius: 100px;
-    display: inline-block;
-    font-family: 'Barlow', Helvetica, sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-    line-height: normal;
-    padding: 15px 30px;
-    text-align: center;
-    text-decoration: none;
-    transition: opacity 0.5s ease;
-  }
-  .button:hover {
-    opacity: 0.75;
-  }
-  .button-primary {
-    background-color: #A1A1A1;
-    color: #FFFFFF;
-  }
-  .button-secondary {
-    background-color: #A1A1A1;
-    color: #FFFFFF;
-  }
-  input {
-    border-radius: 100px;
-    margin-bottom: 15px;
-    padding: 10px;
-    border: none;
-    box-shadow: none;
-    transition: border-color 0.5s ease;
-    width: 100%;
-  }
+ /* n/a */
   
   /* 6. Page Styles
   ======================================== */
