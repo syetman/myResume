@@ -18,87 +18,24 @@
 
 * {
   border: 1px solid red !important;
+}*
+
+
+h2, h4 {
+  text-align: center;
+  text-transform: uppercase;
 }
-  
-  html {
-    margin: 0 auto;
-    overflow-x: hidden;
-    width: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-  }
-  body {
-    margin: 0 auto;
-    overflow-x: hidden;
-    width: 100%;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    color: #333333;
-  }
 
-  /* 2. Typography Styles
-  ======================================== */
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: 700;
-    line-height: 1.25;
-    margin-bottom: 15px;
-    transition: font-size 0.25s ease;
-    text-transform: uppercase;
-  }
+
+.container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  font-weight: bold;
   
-  h1 {
 
   }
-  h2 {
-    font-size: calc(65px / 1.25);
-    margin-top: 10px;
-    line-height: 0.85;
-  }
-  @media(min-width: 1024px) {
-    h1 {
-      font-size: 100px;
-    }
-    h2 {
-      font-size: 60px;
-    }
-  }
-  p {
-    font-size: 16px;
-    line-height: 23px;
-    margin: 0 0 15px;
-  }
-  a {
-    font-size: 16px;
-    color: #0D1C32;
-  }
-  ul {
-    padding: 0;
-    margin: 0;
-  }
-  li {
-    font-size: 16px;
-    line-height: 23px;
-    list-style: none;
-  }
-  img {
-    width: 100%;
-  }
-  
-  /* 3. Structure Styles
-  ======================================== */
-  .container {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1280px;
-    padding: 0 15px;
-  }
+#listnone {
+  list-style: none;
+}
 
-  .contactlist {
-    display: inline-block;
-  }
-  
