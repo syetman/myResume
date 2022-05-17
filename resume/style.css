@@ -1,48 +1,53 @@
-/* Site Stylesheet
-  1. Global Styles
-  2. Typography Styles
-  3. Structure Styles
-  4. Module Styles
-  5. Component Styles
-  6. Page Styles
-======================================== */
-
-/* 1. Global Styles
-======================================== */
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 * {
-  font-family: 'Barlow', Georgia, serif;
+font-family: 'Barlow', Georgia, serif;
 }
 
- * {
-  border: 1px solid red !important;
-}
-
-html {
-  background-color: whitesmoke;
-  color: whitesmoke;
-}
-
-h2, h4 {
-  text-align: center;
-  text-transform: uppercase;
-}
+* {
+border: 1px solid blue !important;
+}*
 
 .container {
   display: flex;
-  font-weight: bold;
-  background: rgb(89,160,255);
-
-ul {
-  list-style: none;
-}
-
-.aboutme {
   justify-content: center;
 }
 
+#top-container {
+  background-color: aqua;
+  flex-direction: column;
+  margin: 10px 100px;
+  
+}
 
-/gap: 1rem;
-justify-content: center;
+#about-container {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  margin: 10px 100px;
+  flex-wrap: wrap;
+
+}
+
+.about-contents { 
+  flex-direction: row;
+}
+h2, h4, h3 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  border-top: 2px dotted gray;
+}
+
+#left-align {
+  text-align: end;
+}
+
