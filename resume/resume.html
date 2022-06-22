@@ -1,65 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="test.css" rel="stylesheet">
-    <title>Shaun Yetman Resume</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 
-  <div class='container' id='top-container'> <!--Block for my name and titles-->
-    <section>
-      <h2 >My name</h2>
-      <h4>titles</h4>
-    </section>
-  </div>
-
-  <div class='container' id='about-container'>  <!--Block for 'about me'-->
-    <div class='about-contents'>
-      <section>
-        <h3>About</h3>
-        <p class='center'>Description</p>
-      </section>
-    </div>
-
-    <div class='about-contents'>
-      <section>
-        <h3>Contact Info</h3>
-        <table>
-  
-          <tr>
-            <td>Location</td>
-            <td id='left-align'>Springfield, VA</td>
-          </tr>
-  
-          <tr>
-            <td>Phone</td>
-            <td id='left-align'>571-501-3653</td>
-          </tr>
-  
-          <tr>
-            <td>Email</td>
-            <td id='left-align'>shauny82@gmail.com</td>
-          </tr>
-  
-          <tr>
-            <td>Linkedin</td>
-            <td id='left-align'>linkedin.com/in/shaun-yetman-a258a825</td>
-          </tr>
-  
-          <tr>
-            <td>Github</td>
-            <td id='left-align'>https://github.com/syetman</td>
-          </tr>
-  
-        </table>
-      </section>
-    </div>
-
-  </div>
-
-  <hr class='dotted'>
-
-
 <body>
+  <div class='parent'>
+    <div class="left-container">
+      <div class='about-container'>
+        <section>
+          <img src="" alt="">
+          <h2>Shaun Yetman</h2>
+          <p><a id='grey'>Location</a> | Springfield, VA
+            <br>
+            <a id='grey'>Phone</a> | 571-501-3653
+            <br>
+            <a id='grey'>Email</a> | shauny82@gmail.com
+            <br>
+            <a id='grey'>Linkedin</a> | <a href="linkedin.com/in/shaun-yetman-a258a825">linkedin.com/in/shaun-yetman-a258a825</a>
+            <br>
+            <a id='grey'>Github</a> | <a href='https://github.com/syetman'>https://github.com/syetman</a>
+          </p>
+        </section>
+        <br>
+        <section>
+          <h3 id='about'>About</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus orci ac auctor augue mauris augue neque. Tortor posuere ac ut consequat semper viverra nam libero. Arcu vitae elementum curabitur vitae nunc sed. In nisl nisi scelerisque eu ultrices. Consequat ac felis donec et. Ut consequat semper viverra nam libero justo laoreet. Molestie nunc non blandit massa enim nec dui. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Aliquet eget sit amet tellus cras adipiscing.
+
+          </p>
+        </section>
+      </div>
+    </div>
+    <div class='right-container'>
+      <section class='experience-container'>
+        <h3 id='experience' class='center'>Experience</h3>
+        <div class='experience-top-row'>
+          <h4>2019-Present - Sony | Security Engineer</h4>
+        </div>
+        <div class='experience-content'>
+          <p>Spearheaded system and security engineering, partnering with Sony Group Companies to identify requirements and develop robust security solutions in alignment with balance business cybersecurity needs. Executed design and implementation security reviews of IaaS / PaaS and SaaS projects, assessing security risks and translating technical standards; advised security and IT teams on security risk-based decisions. Deployed exceptional communication to foster and manage vendor relationships between the global security center and various endpoint security vendors. </p>
+          <ul>
+            <li>Constructed and maintained security architecture strategy, guidelines, and configurations; researched secure system standards, industry trends, market technology, and threat group threats for ecosystem applicability.</li>
+            <li>Leveraged the use of the Mandiant Security Validation breach and attack tool to test the efficacy of security products against various tactics, techniques and procedures of the MITRE ATT@CK framework.</li>
+            <li>Orchestrated audits of Sony’s SIEM solution relating to security vendor solutions; developed an endpoint security assessment to evaluate health of agent to server communications, agent security content updates, etc.</li>
+            <li>Championed an endpoint modernization project, migrating 160K+ endpoints between security providers, security policies, and endpoint exclusions to a cutting-edge security solution.</li>
+          </ul>
+        </div>
+        <br>
+        <div class='experience-top-row'>
+          <h4>2018-2019 - TIAG | Network Security Engineer</h4>
+        </div>
+        <div class='experience-content'>
+          <p>Instrumental in delivering high-quality support to and overseeing a suite of products, including SIEM, ePO/Policy Auditor, Application Control, and Tenable Nessus. Guided incident monitoring, leveraging a high attention to detail and analytical skills to pinpoint and resolve issues generated by the McAfee SIEM suite. Analyzed and implemented Security Technical Implementation Guide (STIG) controls based on the type of device and software installed and configured.</p>
+          <ul>
+            <li>Executed pre-validation cybersecurity inspections, testing, and compliance of Office of Naval Research (ONR) network; inspected and verified technical documentation and artifacts while assessing network devices.</li>
+            <li>Served as information assurance (IA) technical liaison between government leads, network operations, applications, and cybersecurity teams to enable to implementation of new policies to ONR infrastructure.</li>
+          </ul>
+        </div>
+
+        <br>
+
+        <div class='experience-top-row'>
+          <h4>2017-2018 - Stratus Technology Integration Services | McAfee Endpoint Security Engineer</h4>
+        </div>
+        <div class='experience-content'>
+          <p>Supported endpoint security engineering, coordinating cross-functionally with NATO to build and develop 5 different enterprise networks across the globe. Pioneered change management and continuous improvement, leading the standardization of processes for policy creation, testing and deployment for McAfee ePolicy Orchestrator, Disaster Recovery, McAfee Agent, Endpoint Security, and App Control. Guided customer enterprise-wide provisioning initiatives of ePolicy Orchestrator, McAfee Agent, Endpoint Security, and App Control.</p>
+          <ul>
+            <li>Demonstrated exceptional problem-solving to configure, test, and launch product policies, patches, updates and upgrades while troubleshooting ePO management console, clients, and agent-to-server communications.</li>
+            <li>Established and managed 5 McAfee ePO servers concurrently, all residing in different networks; pioneered all software updates and upgrades and troubleshot issues as they arose. </li>
+          </ul>
+        </div>
+
+        <div class='experience-top-row'>
+          <h4>2016-2017 - SecureStrux | Cybersecurity Analyst</h4>
+        </div>
+        <div class='experience-content'>
+          <p>Served as a Certified Windows CCRI Reviewer for the Department of Defense (DoD) Joint Service Provider, executing security assessments using DoD Security Technical Implementation Guides (STIG) and DISA security content automation protocol (SCAP) compliant tools on various technologies, including Windows and UNIX-based programs, McAfee, and networking technologies. Key role in conducting vulnerability scanning using ACAS Suite.</p>
+          <ul>
+            <li>Performed CCRI inspections on multiple technology areas, including Windows web, Windows endpoint, vulnerability management, and McAfee endpoint security.</li>
+          </ul>
+        </div>
+        <br>
+
+        <div class='experience-top-row'>
+          <h4>2014-2016 - AIS | Network Account Manager / Tier II & Onsite IT Support </h4>
+        </div>
+        <div class='experience-content'>
+          <p>Accountable for managing shared drive access and security groups, privileged accounts, external accounts, home drives, and management of dormant network accounts. Provided Tier I and II support for the Office of Secretary of Defense, Washington Headquarter Services and Pentagon Force Protection Agency for classified and unclassified networks.</p>
+          <ul>
+            <li>Consistently produced high-quality results and demonstrated strong technical aptitude to achieve a promotion from Tier II and Onside IT Support to Network Account Manager in 2015.</li>
+            <li>Efficiently resolved issues related to data migrations, email encryption, hardware, software, SCCM client issues, and any CAC and/or access-related problems to ensure customer satisfaction.</li>
+          </ul>
+        </div>
+        <br>
+
+        <div class='experience-top-row'>
+          <h4>2013-2014 - Apex Systems | Help Desk Analyst </h4>
+        </div>
+        <div class='experience-content'>
+          <p>Delivered high-quality help desk and technical support to a wide range of personnel at the Headquarters Marine Corps (HQMC) at the Pentagon. Headed account creation and administration, while troubleshooting with Active Directory on Windows Server 2003. Instrumental in cultivating and maintaining professional relationships with key leaders, identifying information technology (IT) needs and offering robust technical solutions.</p>
+          <ul>
+            <li>Demonstrated strong leadership, serving as the project manager responsible for tracking grant funding and project results; steered and coached a team of 5 to achieve all project objectives.</li>
+            <li>Leveraged and maintained Remedy Ticketing system for troubleshooting systems Windows XP and Windows 7 on SIPRNet and NIPRNet networks.</li>
+          </ul>
+        </div>
+        <br>
+
+        <div class='experience-top-row'>
+          <h4>2012-2013 - CDW | Account Manager</h4>
+        </div>
+        <div class='experience-content'>
+          <p>Engaged and collaborated directly with a variety of IT decision makers to improve their technology infrastructure and boost their efficiency</p>
+          <ul>
+            <li>Prospected for new customers through a high volume of customer touchpoints to effectively grow book of business</li>
+            <li>Researched current and potential customers to understand their business, and educate them on the value of working with CDW</li>
+            <li>Educated, strategized and successfully sold the industry’s top technology products, services and solutions</li>
+            <li>Collaborated with peers and industry partners to bring the best technology solutions to customers</li>
+            <li>Built, grew and maintained positive relationships with customers</li>
+          </ul>
+        </div>
+        <br>
+        <h3 id='credentials'>Credentials</h3>
+        <p>Associate Applied Science, Lincoln Technical Institute</p>
+        <p>Certified Information Systems Security Professional (CISSP), (ISC)²</p>
+        <p>CompTIA Advanced Security Practitioner (CASP+), CompTIA | CompTIA Security+, CompTIA</p>
+        <p>McAfee Certified Product Specialist – ePO, McAfee | Trend Micro Deep Security Certified Professional, Trend Mirco</p>
+        <p>IT Information Library Foundations Certificate – ITILv3, ITIL Certified | Splunk Core Certified Power User, Splunk</p>
+        <p>Front End Developer Course, Code Academy</p>
+        <br>
+        <h3 id='skills'>Skills</h3>
+        <p>JIRA, SQL, dbConnect, HTML, CSS, Linux, Python, Azure, AWS, Javascript, Microsoft Office Suite (Outlook, Word, Excel, Powerpoint, Sharepoint), Active Directory, Git, Googling, Splunk, routing and switching</p>
+      </section>
+    </div>
+
+    <section>
+
+    </section>
+
+    <section>
+
+    </section>
+
+  </div>
+
+</body>
+
+</html>
