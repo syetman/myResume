@@ -1,5 +1,5 @@
 * {
-  border: 1px blue solid !important;
+  /* border: 1px blue solid !important; */
 }
 
 body {
@@ -28,7 +28,40 @@ body {
   margin-right: 20em;
 }
 
+.about-container {
+  margin-top: 9em;
+  margin-left: 4em;
+}
+
 h2 {
   font-size: 3em;
-  text-align: center;
+  /* text-align: center; */
+}
+
+img {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  width: 200px;
+  
+}
+
+.div-list {
+  display: flex;
+}
+
+.about-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.fontshrink {
+  font-size: .8em;
+}
+
+h3,
+h4 {
+  color: #5dc279;
 }
